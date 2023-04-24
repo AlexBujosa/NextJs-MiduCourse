@@ -1,0 +1,24 @@
+.navigation {
+  display: flex;
+  list-style: upper-roman;
+  width: 100%;
+  margin: auto auto auto 25px;
+}
+.header {
+  border: 1px solid #f0f0f0;
+  display: flex;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.list {
+  list-style: circle;
+  color: white;
+  display: flex;
+  gap: 30px;
+}
+
+.list li:hover {
+  color: #f0f0f0;
+  text-decoration: underline;
+}
